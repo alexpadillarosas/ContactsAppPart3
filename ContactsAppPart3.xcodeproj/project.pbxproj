@@ -11,7 +11,6 @@
 		FA2A127A261F2D36009CBF1F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2A1279261F2D36009CBF1F /* libsqlite3.tbd */; };
 		FA4581E0251B592A004A3C2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4581DF251B592A004A3C2F /* AppDelegate.m */; };
 		FA4581E3251B592A004A3C2F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4581E2251B592A004A3C2F /* SceneDelegate.m */; };
-		FA4581E6251B592A004A3C2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4581E5251B592A004A3C2F /* ViewController.m */; };
 		FA4581EB251B592B004A3C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4581EA251B592B004A3C2F /* Assets.xcassets */; };
 		FA4581EE251B592B004A3C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4581EC251B592B004A3C2F /* LaunchScreen.storyboard */; };
 		FA4581F1251B592B004A3C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4581F0251B592B004A3C2F /* main.m */; };
@@ -31,8 +30,6 @@
 		FA4581DF251B592A004A3C2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FA4581E1251B592A004A3C2F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		FA4581E2251B592A004A3C2F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		FA4581E4251B592A004A3C2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA4581E5251B592A004A3C2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA4581EA251B592B004A3C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4581ED251B592B004A3C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA4581EF251B592B004A3C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,9 +103,7 @@
 				FA4581DF251B592A004A3C2F /* AppDelegate.m */,
 				FA4581E1251B592A004A3C2F /* SceneDelegate.h */,
 				FA4581E2251B592A004A3C2F /* SceneDelegate.m */,
-				FA4581E4251B592A004A3C2F /* ViewController.h */,
 				FA458203251B5A80004A3C2F /* Main.storyboard */,
-				FA4581E5251B592A004A3C2F /* ViewController.m */,
 				FA4581EA251B592B004A3C2F /* Assets.xcassets */,
 				FA4581EC251B592B004A3C2F /* LaunchScreen.storyboard */,
 				FA4581EF251B592B004A3C2F /* Info.plist */,
@@ -207,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4581E6251B592A004A3C2F /* ViewController.m in Sources */,
 				FA4581E0251B592A004A3C2F /* AppDelegate.m in Sources */,
 				FA458200251B5A33004A3C2F /* ContactCellTableViewCell.m in Sources */,
 				FA4581FF251B5A33004A3C2F /* ContactsTableViewController.m in Sources */,
