@@ -13,7 +13,7 @@
     * If you run the app, you will see  the < Contacts button by default. As we want to create an image that contains Cancel & Save Buttons in the navigation bar (that is the reason of the + button) this approach would not help us.
   * To reach our expectation, we need to make a few changes:
   * Select Action Segue as “Present Modally” you will see appear 2 more options, change the **Presentation** attribute to “Over Current Context”
-    * Embed the destination View Controller in a navigation controller
+    * Embed the destination View Controller in a navigation controller (This is needed in order to avoid the previous < Contacts button added by the previous navigation controller)
     * Run the app, now there is no < Contacts button, and instead we can place our Cancel & Save Buttons (Bar Button Item) in the navigation bar
     * Change System Item of each button  Cancel and Save already exists.
   
