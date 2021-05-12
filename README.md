@@ -1,5 +1,5 @@
 # ContactsAppPart3
-  In this chapter we will work on adding Bar Button Items and using unwind segues.
+  In this chapter we will work on adding **Bar Button Items** and using **unwind segues**.
 
 ## Adding + Bar Button Item 
 ![Simulator Screen Shot - iPhone SE (2nd generation) - 2021-05-12 at 22 50 18](https://user-images.githubusercontent.com/4823319/117979647-7e375380-b376-11eb-9c27-7e045c7487cd.png)
